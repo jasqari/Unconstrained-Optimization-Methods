@@ -3,7 +3,9 @@ In this repository, you can find the Python implementations of some line search 
 * Gradient descent, conjugate gradient, Newton–Raphson, quasi-Newton, and Powell's dog approaches are implemented.
 * Line search methods optimize using a dynamic step size based on the Wolfe conditions.
 * The following multivariate function and its gradient are defined in all of the implementations:
-    ... $f(\mathbf{x}) = (1-x_1)^2 + 5(x_2-x_1^2)^2$
+<p align="center">
+$f(\mathbf{x}) = (1-x_1)^2 + 5(x_2-x_1^2)^2$
+</p>
 * `Utils/` contains a module that can display contour plots.
 
 ## Usage
